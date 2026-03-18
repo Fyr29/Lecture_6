@@ -347,18 +347,18 @@
 #
 # Не забудьте, що перший елемент масиву має індекс 0.
 
-# numbers = [1, 3, 5]
-# odd_numbers = numbers[::2]
-# print(odd_numbers)
-#
-# math_action = "+"
-#
-# for number in odd_numbers:
-#     if number == numbers[-1]:
-#         math_action = ""
-#         result = sum(odd_numbers)
-#         math_action += "= " + str(result)
-#     print(f"{number} {math_action}", end=" ")
+numbers = [1, 3, 5]
+odd_numbers = numbers[::2]
+print(odd_numbers)
+
+math_action = "+"
+
+for number in odd_numbers:
+    if number == numbers[-1]:
+        math_action = ""
+        result = sum(odd_numbers)
+        math_action += "= " + str(result)
+    print(f"{number} {math_action}", end=" ")
 
 ####
 # while True:
