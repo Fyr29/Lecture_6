@@ -79,7 +79,7 @@
 # можна працювати як зі звичайним списком,
 # тільки не можна нічого міняти (функції, які змінюють колекцію - відсутні в кортежі)
 # crud -> create, read, update, delete (у кортежі можна робити лише read)
-
+#
 # info = ("test1", 123)
 # print(info)
 # print(type(info))
@@ -89,12 +89,13 @@
 # print(type(info))
 # #
 # print(info[0])
-#
-# info[0] = 123  # TypeError: 'tuple' object does not support item assignment
 
+# info[0] = 123  # TypeError: 'tuple' object does not support item assignment
+#
 # num = int(input("Enter number: "))
 # nums = 12, int(input("Enter number: ")), num
 # print(nums)
+# print(type(nums))
 
 # ####
 # import copy
@@ -222,12 +223,12 @@
 # print(users["+4444444"])
 #
 # print(users)
-
+#
 # for key in users:
 #     print(users[key], end=" ")
 #
 # print()
-# #
+# # #
 # for key in users.keys():
 #     print(key, end=" ")
 #
@@ -257,7 +258,7 @@
 #
 # # print(users["+33333333"])
 # print(users.get("+333333331", "key not exists"))
-#
+
 # # del users["+55555555"]
 # deleted_value = users.pop("+55555555", "key not exists")
 # print(deleted_value)
@@ -273,14 +274,14 @@
 #     "+55555555": "Alice"
 # }
 # #
-# users_copy = users_1.copy()
+# # users_copy = users_1.copy()
+# #
+# # print(users_1)
+# # print(users_copy)
+# # users_copy[111] = "qqqqqq"
+# # print(users_1)
+# # print(users_copy)
 #
-# print(users_1)
-# print(users_copy)
-# users_copy[111] = "qqqqqq"
-# print(users_1)
-# print(users_copy)
-
 # users_2 = {
 #     "+11111111": "eeeeeee",
 #     "+44444": "qqqqqq",
